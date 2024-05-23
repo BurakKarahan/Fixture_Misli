@@ -8,8 +8,6 @@ import com.example.fixture_misli.Model.FixtureModelParcelable
 import com.example.fixture_misli.R
 import com.example.fixture_misli.Util.Constant
 import com.example.fixture_misli.databinding.ActivityDetailBinding
-import com.example.fixture_misli.databinding.ActivityMainBinding
-import com.fixture_misli.Adapter.ParentAdapter
 import java.text.SimpleDateFormat
 import java.util.Locale
 

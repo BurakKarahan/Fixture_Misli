@@ -1,16 +1,13 @@
 package com.example.fixture_misli.Adapter
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fixture_misli.Model.Data
-import com.example.fixture_misli.Model.Fixture
 import com.example.fixture_misli.R
 import com.example.fixture_misli.databinding.ChildLayoutBinding
-import com.fixture_misli.Adapter.ParentAdapter
 import java.text.SimpleDateFormat
 
 class ChildAdapter(private val childList: List<Data>) :
