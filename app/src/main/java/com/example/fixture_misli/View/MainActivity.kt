@@ -12,9 +12,9 @@ import com.fixture_misli.Adapter.ParentAdapter
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding : ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
     private lateinit var viewModel: FixtureViewModel
-    private lateinit var parentAdapter : ParentAdapter
+    private lateinit var parentAdapter: ParentAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
     private fun prepareRecyclerView() {
         parentAdapter = ParentAdapter()
         binding.parentRecyclerView.apply {
-            layoutManager = GridLayoutManager(applicationContext,1)
+            layoutManager = GridLayoutManager(applicationContext, 1)
             adapter = parentAdapter
         }
     }

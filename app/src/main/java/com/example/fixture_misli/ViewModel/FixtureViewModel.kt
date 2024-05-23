@@ -29,7 +29,10 @@ class FixtureViewModel : ViewModel(){
                             break
                         }
                     }
-                    parentList.sortBy { it.to.n }
+                    parentList.sortWith(compareBy({ it.to.p }, { it.to.n }))
+                    for (item in parentList) {
+                        (item.data as ArrayList).sortWith(compareBy({ it.d }, { it.i }))
+                    }
                     fixtureLiveData.value = parentList
                 }
                 else {
