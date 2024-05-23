@@ -27,7 +27,8 @@
             app:layout_constraintEnd_toStartOf="@+id/parentTextView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.1" />
+            app:layout_constraintWidth_percent="0.1"
+            android:contentDescription="TODO" />
 
         <TextView
             android:id="@+id/parentTextView"
