@@ -4,7 +4,8 @@ This application lists the dates and results of football matches around the worl
 
 ## Screenshots
 <p align="center">
-<img src="https://github.com/BurakKarahan/SansTechCase/assets/38407555/9906d606-8ee8-40a3-8432-623a51308028" width="40%" />  
+<img src="https://github.com/BurakKarahan/Fixture_Misli/assets/38407555/3a90747d-5094-4c89-9ebd-e146c6f4eeab" width="40%" />  
+<img src="https://github.com/BurakKarahan/Fixture_Misli/assets/38407555/c1be2d0f-ecba-468d-9afb-d2a8c6f8276d" width="40%" />  
 
 ## Technologies
 - [Kotlin](https://kotlinlang.org/docs/getting-started.html)
